@@ -28,25 +28,25 @@ Here's a bash script to setup this folder structure
 #!/bin/bash
 
 # Define the root directory (you can change this to your desired root directory)
-ROOT_DIR="c14.p2pt"
+ROOT_DIR="c14.p2.t__"
 
 # Create the directory structure
-mkdir -p $ROOT_DIR/.github/workflows
-mkdir -p $ROOT_DIR/.github/ISSUE_TEMPLATE
-mkdir -p $ROOT_DIR/src/components
-mkdir -p $ROOT_DIR/src/styles
-mkdir -p $ROOT_DIR/src/assets
-mkdir -p $ROOT_DIR/src/utils
-mkdir -p $ROOT_DIR/public
-mkdir -p $ROOT_DIR/tests
-mkdir -p $ROOT_DIR/docs
-mkdir -p $ROOT_DIR/scripts
+sudo mkdir -p $ROOT_DIR/.github/workflows
+sudo mkdir -p $ROOT_DIR/.github/ISSUE_TEMPLATE
+sudo mkdir -p $ROOT_DIR/src/components
+sudo mkdir -p $ROOT_DIR/src/styles
+sudo mkdir -p $ROOT_DIR/src/assets
+sudo mkdir -p $ROOT_DIR/src/utils
+sudo mkdir -p $ROOT_DIR/public
+sudo mkdir -p $ROOT_DIR/tests
+sudo mkdir -p $ROOT_DIR/docs
+sudo mkdir -p $ROOT_DIR/scripts
 
 # Create placeholder files
 touch $ROOT_DIR/.env
-touch $ROOT_DIR/.gitignore
+# touch $ROOT_DIR/.gitignore
 touch $ROOT_DIR/package.json
-touch $ROOT_DIR/README.md
+# touch $ROOT_DIR/README.md
 touch $ROOT_DIR/LICENSE
 
 # Create an index.js file in the src directory
@@ -59,7 +59,7 @@ echo "Folder structure setup complete for $ROOT_DIR."
 ```
 To <b>run</b> this script:
 
-1. Save the script to a file, for example, setup_structure.sh.
+1. Save the script to a file, for example, <b>setup_structure.sh</b>
 2. Make the script executable:
 
 ```
