@@ -1,3 +1,5 @@
 # WELCOME
 
-[folder sturcture](folders.md)
+[folder structure](folders.md)
+
+[ticketing system](kanban.md)
