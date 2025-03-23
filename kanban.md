@@ -1,39 +1,39 @@
 # Ticketing system...our choice ?
 
-## Prompt: Is it easier to use Gtihub Projects, Trella, Linear or an alternative?
+## Prompt: Is it easier to use Github Projects, Trella, Linear or an alternative?
 
 The choice between GitHub Projects, Trello, Linear, or another alternative depends on your team's specific needs and preferences. Here's a brief overview of each:
 
 ### GitHub Projects
 
-    <b>Pros:</b>
+    Pros:
         Integrated directly with your GitHub repositories.
         Ability to link issues, pull requests, and commits directly to project tasks.
         Supports automation with GitHub Actions.
         Provides Kanban-style boards for task management.
-    <b>Cons:</b>
+    Cons:
         Limited to GitHub's ecosystem.
         May lack some advanced features found in dedicated project management tools.
 
 ### Trello
 
-    <b>Pros:</b>
+    Pros:
         Highly visual and flexible Kanban-style boards.
         Easy to use with drag-and-drop functionality.
         Extensive integrations with other tools (e.g., Slack, Google Drive).
         Suitable for a wide range of project types beyond software development.
-    <b>Cons:</b>
+    Cons:
         Limited built-in support for software development workflows.
         Requires additional setup and integrations for full functionality with development tools.
 
 ### Linear
 
-    <b>Pros:</b>
+    Pros:
         Designed specifically for software development teams.
         Fast and responsive interface with a focus on productivity.
         Strong support for keyboard shortcuts and automation.
         Integrates well with GitHub and other development tools.
-    <b>Cons:</b>
+    Cons:
         May have a learning curve for new users.
         Limited to software development projects.
 
